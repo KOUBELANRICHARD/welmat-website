@@ -1,3 +1,4 @@
+from datetime import date
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -13,6 +14,6 @@ def listings(request):
 def contact_us(request):
     return HttpResponse('<h1>Bienvenue sur notre page de contact')
 
-def index(request):
+def indexl(request):
     return render(request, "index.html")
 
